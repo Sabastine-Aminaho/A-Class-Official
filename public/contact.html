@@ -1,0 +1,195 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - A-Class Consults</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="font-body text-secondary-100 text-sm">
+
+    <header class="text-secondary-500 relative">
+        <nav class="mt-5 h-15 md:flex justify-between items-center p-3 border-b-2 border-secondary-200 text-secondary-600 ">
+            <div class="mx-10 flex justify-between">
+                <div>
+                    <a href="index.html"><img class="w-40" src="img/logo.png" alt="logo"></a>
+                </div>
+                <svg class="w-10 md:hidden cursor-pointer" id="burger" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
+                  </svg>
+            </div>
+            
+              
+            <ul class="md:flex mx-10 text-sm lg:text-lg hidden" id="menu">
+                <li class="mx-5 py-4 hover:shadow-none transform hover:scale-110"><a href="index.html">Home</a></li>
+                <li class="mx-5 py-4 hover:shadow-none transform hover:scale-110"><a href="/about">About</a></li>
+                <li class="mx-5 py-4 hover:shadow-none transform hover:scale-110"><a href="/services">Services</a></li>
+                <li class="mx-5 py-4 hover:shadow-none transform hover:scale-110"><a href="/career">Career</a></li>
+                <li class="mx-5 text-center border-2 border-primary-800 rounded-3xl px-8 py-4 text-primary-800 hover:bg-primary-800 hover:text-secondary-100 transition ease-out duration-500 hover:shadow-inner transform hover:scale-110"><a href="contact.html">Contact</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main class="wrapper py-5 px-10 bg-secondary-100">
+        <div class="text-center pb-10">
+            <h1 class="font-bold text-3xl text-primary-800">Contact Us</h1>
+            <p class="text-secondary-500"> We love to hear from you!</p>
+        </div>
+
+
+        <div class="bg-secondary-10000 md:mx-32 md:grid grid-cols-2 gap-10 pb-5 pt-5 px-2 rounded-lg">
+            <div class="text-secondary-10000 bg-primary-800 px-5 pb-10 rounded-lg">
+                <h1 class="font-bold text-2xl pb-5 mt-3">Contact Information</h1>
+                <p> Any question? please give us a call or drop a message!</p>
+                <div>
+                    <ul class="mt-16">
+                        <li>+44 7544 742493, +234 7061985823</li>
+                    </ul>
+                    <ul class="mt-10">
+                        <li>info@aclassconsults.com</li>
+                    </ul>
+                    <ul class="mt-10">
+                        <li>Head Office: Achievers Villa, Opposite University of Port Harcourt Teaching Hospital Main Gate, Alakahia, Rivers State, Nigeria.</li>
+                    </ul>
+                </div>
+            </div>
+            <div >
+                <form action="" method="post" class="text-secondary-500">
+                    <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+                        <div class="sm:col-span-3">
+                          <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900">First name</label>
+                          <div class="mt-2">
+                            <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                          </div>
+                        </div>
+                
+                        <div class="sm:col-span-3">
+                          <label for="last-name" class="block text-sm font-medium leading-6 text-gray-900">Last name</label>
+                          <div class="mt-2">
+                            <input type="text" name="last-name" id="last-name" autocomplete="family-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                          </div>
+                        </div>
+                
+                        <div class="sm:col-span-3">
+                          <label for="email" class="block text-sm font-medium leading-6 text-gray-900">Email address</label>
+                          <div class="mt-2">
+                            <input id="email" name="email" type="email" autocomplete="email" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" >
+                          </div>
+                        </div>
+                        <div class="sm:col-span-3">
+                            <label for="email" class="block text-sm font-medium leading-6 text-gray-900">Phone Number</label>
+                            <div class="mt-2">
+                              <input id="phone" name="phone" type="tel" autocomplete="email" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                            </div>
+                          </div>
+                
+                        <div class="sm:col-span-3">
+                          <label for="country" class="block text-sm font-medium leading-6 text-gray-900">Country</label>
+                          <div class="mt-2">
+                            <select id="country" name="country" autocomplete="country-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-xs sm:text-sm sm:leading-6">
+                                <option>Select your region</option>
+                                <option>Australia</option>
+                                <option>Canada</option>
+                                <option>Germany</option>
+                                <option>Nigeria</option>
+                              <option>United Kingdom</option>
+                              <option>United State</option>
+                              <option>Others</option>  
+                            </select>
+                          </div>
+                        </div>
+                
+                        <div class="col-span-full">
+                            <label for="about" class="block text-sm font-medium leading-6 text-gray-900">About</label>
+                            <div class="mt-2">
+                              <textarea id="about" name="about" rows="3" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 px-2" placeholder="Send Us a Message!"></textarea>
+                            </div>
+                          </div>                             
+                                      
+                          </div>
+            </div>
+
+            <div class="">
+                <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Port Harcourt&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://pdflist.com/" alt="pdf download">Pdf download</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height: 400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>
+              </div>
+        </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="px-10 wrapper py-10 bg-primary-800 text-center text-secondary-100 items-center">
+            <div class="lg:grid lg:grid-cols-4 pb-5 border-b  border-secondary-400">
+                <div>  <!-- Start of Logo section for footer-->
+                    <div class="flex justify-center pt-7">
+                        <img class="w-64" src="img/logo.png" alt="footer log">
+                    </div>
+                    <h3 class="text-sm pt-4 font-light">A-Class Consults is a consultancy, research and personnel training company that integrates cutting-edge technology to deliver practical solutions to the challenges of organizations in the private and public sectors. Founded and registered in Nigeria in 2019  and with working experiences all over Nigeria.</h3>
+                </div> <!-- End of logo section for footer -->
+
+                <div>  <!-- Start of quick link section for footer-->
+                    <h1 class="font-bold text-3xl mb-5 pt-7">Quick Links</h1>
+                    <ul class="text-sm">
+                        <li class="py-2 hover:shadow-none transform hover:scale-110 hover:text-secondary-100 transition ease-out duration-500"><a href="index.html">Home</a></li>
+                        <li class="py-2 hover:shadow-none transform hover:scale-110 hover:text-secondary-100 transition ease-out duration-500"><a href="">About</a></li>
+                        <li class="py-2 hover:shadow-none transform hover:scale-110 hover:text-secondary-100 transition ease-out duration-500"><a href="">Services</a></li>
+                        <li class="py-2 hover:shadow-none transform hover:scale-110 hover:text-secondary-100 transition ease-out duration-500"><a href="">Career</a></li>
+                        <li class="py-2 hover:shadow-none transform hover:scale-110 hover:text-secondary-100 transition ease-out duration-500"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div> <!-- End of quick link section for footer -->
+
+                <div class="md:text-start md:col-span-2">  <!-- Start of contact section for footer-->
+                    <h1 class="font-bold text-3xl mb-5 pt-7 lg:text-start">Contact</h1>
+                    <ul class="text-sm flex items-center text-start">
+                        <svg class="w-20 px-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                        </svg>
+                        <li class="py-2">Achievers Villa, Opposite University of Port Harcourt Teaching Hospital Main Gate, Alakahia, Rivers State, Nigeria.
+                        </li>
+
+                       
+                          
+                    </ul>
+                    <ul class="text-sm flex items-center">
+                        <svg class=" w-16 md:w-16 px-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                          </svg>
+                        <li class="py-2">info@aclassconsults.com</li>
+                    </ul>
+                    <ul class="text-sm flex items-center">
+                        <svg class="w-16 px-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+                          </svg>
+                          <li class="py-2">+44 7544 742493, +234 7061985823</li>
+                    </ul>
+
+
+                    <ul class="flex mt-5  lg:justify-start justify-center">
+                        <li class="px-5"><a href=""><i class="fa fa-twitter hover:shadow-none transform hover:scale-110 hover:text-secondary-100 transition ease-out duration-500" style="font-size:38px;color:white;"></i>
+                        </a></li>
+                    
+                        <li class="px-5"><a href=""><i class="fa fa-instagram hover:shadow-none transform hover:scale-110 hover:text-secondary-100 transition ease-out duration-500" style="font-size:38px;color:white;"></i>
+                        </a></li>
+                    
+                        <li class="px-5"><a href=""><i class="fa fa-facebook-official hover:shadow-none transform hover:scale-110 hover:text-secondary-100 transition ease-out duration-500" style="font-size:38px;color:white;"></i>
+                        </a></li>
+                    </ul>
+                    
+                    
+                    
+                </div> <!-- End of contact section for footer -->
+               
+            </div>
+            <div>
+                <h3 class="mt-6 items-center">Copyright ©2023 All rights reserved by: 
+                    <span class="font-bold">A-CLASS ACADEMIC CONSULT</span>
+                </h3>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

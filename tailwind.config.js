@@ -15,6 +15,7 @@ module.exports = {
         950: '#172554',
       },
       secondary: {
+        10000: '#ffffff',
         100: '#f3f4f6',
         200: '#e5e7eb',
         300: '#d1d5db',
