@@ -10,11 +10,11 @@
 
     <header class="text-secondary-500 relative">
         <nav class="mt-5 h-15 md:flex justify-between items-center p-3 border-b-2 border-secondary-200 text-secondary-600 ">
-            <div class="mx-10 flex justify-between">
+            <div class="mx-1 md:mx-10 flex justify-between">
                 <div>
                     <a href="index.html"><img class="w-40" src="img/logo.png" alt="logo"></a>
                 </div>
-                <svg class="w-10 md:hidden cursor-pointer" id="burger" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <svg class="w-10 md:hidden cursor-pointer hover:transition ease-out duration-500" id="burger" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
                   </svg>
             </div>
@@ -31,16 +31,16 @@
         </nav>
     </header>
 
-    <main class="wrapper py-5 px-10 bg-secondary-100">
+    <main class="wrapper py-5 px-5 bg-secondary-100">
         <div class="text-center pb-10">
             <h1 class="font-bold text-3xl text-primary-800">Contact Us</h1>
             <p class="text-secondary-500"> We love to hear from you!</p>
         </div>
 
 
-        <div class="bg-secondary-10000 md:mx-32 md:grid grid-cols-2 gap-10 pb-5 pt-5 px-2 rounded-lg">
-            <div class="text-secondary-10000 bg-primary-800 px-5 pb-10 rounded-lg">
-                <h1 class="font-bold text-2xl pb-5 mt-3">Contact Information</h1>
+        <div class="bg-secondary-10000  md:mx-32 md:grid grid-cols-2 gap-10 mb-10 pb-5 pt-5 px-2 rounded-lg">
+            <div class="text-secondary-10000 text-center bg-primary-800 px-5 pb-10 rounded-lg">
+                <h1 class="font-bold text-2xl pb-5 mt-6">Contact Information</h1>
                 <p> Any question? please give us a call or drop a message!</p>
                 <div>
                     <ul class="mt-16">
@@ -55,37 +55,37 @@
                 </div>
             </div>
             <div >
-                <form action="" method="post" class="text-secondary-500">
+                <form action="" method="post" class="text-secondary-500 relative">
                     <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
                         <div class="sm:col-span-3">
-                          <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900">First name</label>
+                          <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900">First name <span class="text-required-500">*</span></label>
                           <div class="mt-2">
                             <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
                           </div>
                         </div>
                 
                         <div class="sm:col-span-3">
-                          <label for="last-name" class="block text-sm font-medium leading-6 text-gray-900">Last name</label>
+                          <label for="last-name" class="block text-sm font-medium leading-6 text-gray-900">Last name <span class="text-required-500">*</span></label>
                           <div class="mt-2">
                             <input type="text" name="last-name" id="last-name" autocomplete="family-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
                           </div>
                         </div>
                 
                         <div class="sm:col-span-3">
-                          <label for="email" class="block text-sm font-medium leading-6 text-gray-900">Email address</label>
+                          <label for="email" class="block text-sm font-medium leading-6 text-gray-900">Email address <span class="text-required-500">*</span></label>
                           <div class="mt-2">
                             <input id="email" name="email" type="email" autocomplete="email" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" >
                           </div>
                         </div>
                         <div class="sm:col-span-3">
-                            <label for="email" class="block text-sm font-medium leading-6 text-gray-900">Phone Number</label>
+                            <label for="email" class="block text-sm font-medium leading-6 text-gray-900">Phone Number (Optional)</label>
                             <div class="mt-2">
                               <input id="phone" name="phone" type="tel" autocomplete="email" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
                             </div>
                           </div>
                 
-                        <div class="sm:col-span-3">
-                          <label for="country" class="block text-sm font-medium leading-6 text-gray-900">Country</label>
+                        <div class="sm:col-span-6">
+                          <label for="country" class="block text-sm font-medium leading-6 text-gray-900">Country <span class="text-required-500">*</span></label>
                           <div class="mt-2">
                             <select id="country" name="country" autocomplete="country-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-xs sm:text-sm sm:leading-6">
                                 <option>Select your region</option>
@@ -101,20 +101,22 @@
                         </div>
                 
                         <div class="col-span-full">
-                            <label for="about" class="block text-sm font-medium leading-6 text-gray-900">About</label>
+                            <label for="about" class="block text-sm font-medium leading-6 text-gray-900">Send Us a Message!<span class="text-required-500">*</span></label>
                             <div class="mt-2">
                               <textarea id="about" name="about" rows="3" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 px-2" placeholder="Send Us a Message!"></textarea>
                             </div>
-                          </div>                             
-                                      
+                          </div> 
+                        <div>
+                            <button type="submit" class="border border-primary-800 rounded-lg py-3 px-5 font-semibold text-primary-800 hover:bg-primary-800 transition ease-out duration-500 hover:text-secondary-10000">Send</button>                           
+                        </div>
                           </div>
-            </div>
-
-            <div class="">
-                <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Port Harcourt&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://pdflist.com/" alt="pdf download">Pdf download</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height: 400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>
-              </div>
-        </div>
                 </form>
+
+            </div>
+        </div>          
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.264832515251!2d6.935483468782619!3d4.895270729095342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1069d115a1dd1575%3A0x94882a0758041fc4!2sAlakahia!5e0!3m2!1sen!2sng!4v1703763075118!5m2!1sen!2sng" width="100%" height="450px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
         </div>
     </main>
@@ -190,6 +192,9 @@
             </div>
         </div>
     </footer>
+
+
+    <script src="index.js"></script>
 
 </body>
 </html>

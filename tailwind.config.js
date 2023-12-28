@@ -22,7 +22,10 @@ module.exports = {
         400: '#9ca3af',
         500: '#6b7280',
         600: '##4b5563',
-      }
+      },
+      required: {
+        500: '#ef4444',
+      },
     },
     screens: {
       'sm': '640px',
