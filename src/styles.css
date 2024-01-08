@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -12,10 +12,29 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(51, 48, 48, 0.5); /* Adjust the opacity as needed */
+    background-color: rgba(14, 12, 12, 0.5); /* Adjust the opacity as needed */
 }
-
+.overlay-home {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(180, 174, 235, 0.5); /* Adjust the opacity as needed */
+}
 
 .blur {
     filter: blur(4px); /* Adjust the blur amount as needed */
+}
+
+.hero{
+    height: 500px; /* Adjust the blur amount as needed */
+}
+
+.hero-image{
+    width: 410px; /* Adjust the blur amount as needed */
+}
+
+.hero-writeup{
+    line-height: 20px; /* Adjust the blur amount as needed */
 }

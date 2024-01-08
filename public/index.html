@@ -6,38 +6,70 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body class="font-body text-sm">
+<body class="font-Poppins text-sm">
     <div class="wrapper">
-        <header>
-            <nav class="mt-5 h-15 md:flex justify-between items-center p-3 border-b-2 border-secondary-200 text-secondary-600 ">
-                <div class="mx-1 md:mx-10 flex justify-between">
-                    <div>
-                        <a href="index.html"><img class="md:w-40 w-24" src="img/logo.png" alt="logo"></a>
-                    </div>
-                    <svg class="md:w-10 w-8 md:hidden cursor-pointer" id="burger" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
-                      </svg>
-                </div>
-                
-                  
-                <ul class="md:flex mx-10 text-sm hidden" id="menu">
-                    <li class="mx-5 py-4 hover:shadow-none transform hover:scale-110"><a href="index.html">Home</a></li>
-                    <li class="mx-5 py-4 hover:shadow-none transform hover:scale-110"><a href="about.html">About</a></li>
-                    <li class="mx-5 py-4 hover:shadow-none transform hover:scale-110"><a href="/services">Services</a></li>
-                    <li class="mx-5 py-4 hover:shadow-none transform hover:scale-110"><a href="/career">Career</a></li>
-                    <li class="mx-5 text-center border-2 border-primary-800 rounded-3xl px-8 py-4 text-primary-800 hover:bg-primary-800 hover:text-secondary-100 transition ease-out duration-500 hover:shadow-inner transform hover:scale-110"><a href="contact.html">Contact</a></li>
+        <div class="relative m-0 p-0">
+            <header class="relative">
+                <nav class="mt-5 h-15 md:flex justify-between items-center p-3 border-b-2 border-secondary-200 text-secondary-600 ">
 
-                </ul>
-            </nav>
-        </header>
+                    <div class="mx-1 md:mx-10 flex justify-between">
+                            <div>
+                                <a href="index.html"><img class="md:w-40 w-24" src="img/logo.png" alt="logo"></a>
+                            </div>
+                            <svg class="md:w-10 w-8 md:hidden cursor-pointer" id="burger" xmlns="http://www.w3.org/2000/svg"  fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25"/>
+                              </svg>
+                    </div>
+                    <ul class="md:flex mx-10 text-sm hidden" id="menu">
+                            <li class="mx-5 py-4 hover:shadow-none transform hover:scale-110"><a href="index.html">Home</a></li>
+                            <li class="mx-5 py-4 hover:shadow-none transform hover:scale-110"><a href="about.html">About</a></li>
+                            <li class="mx-5 py-4 hover:shadow-none transform hover:scale-110"><a href="/services">Services</a></li>
+                            <li class="mx-5 py-4 hover:shadow-none transform hover:scale-110"><a href="/career">Career</a></li>
+                            <li class="mx-5 text-center border-2 border-primary-800 rounded-3xl px-8 py-4 text-primary-800 hover:bg-primary-800 hover:text-secondary-100 transition ease-out duration-500 hover:shadow-inner transform hover:scale-110"><a href="contact.html">Contact</a></li>
+        
+                    </ul>  
+                </nav> 
+                <div class="hero-section hero flex relative items-center justify-center md:justify-start md:mx-10">
+                    <div class="z-20 text-center md:text-left md:ml-10 w-3/5">
+                        <h1 class="font-bold leading-8 tracking-wider text-2xl md:text-4xl text-primary-900 collapse md:visible">
+                            Revolutionizing Your Business With Data-Driven Insights, Consultancy & Personnel Development.
+                        </h1> <br>
+                        <h1 class="font-bold leading-8 tracking-wider text-2xl md:text-4xl text-primary-900 w-3/5 absolute top-40 md:hidden">
+                            Revolutionizing Your Business With A-Class Consults
+                        </h1><br>
+                        <p class="text-sm tracking-wider md:text-lg">We are here to help you take care of your legality with the best service especially for you.
+                        </p>
+                    </div>
+
+                    <div class="bg-primary-100 collapse md:visible  w-3/6 h-80 rounded-full absolute right-24 z-10">
+
+                    </div>
+                    <div class="bg-primary-50 md:visible w-96 h-96 rounded-full absolute md:right-16 ">
+
+                    </div>
+                    <div class="z-10 absolute -right-28 md:right-28 top-1 hero-image transform -scale-x-100">
+                        <img src="img/hero.png" alt="">
+                    </div>
+                    <div class="z-10 overlay-home md:collapse"></div>
+
+                    
+                </div>
+            </header>
+        </div>
+      
+
+
+
+
+
 
 
 
         <footer>
-            <div class="px-10 wrapper py-10 bg-primary-800 text-center text-secondary-100 items-center">
+            <div class="px-10 wrapper z-50 py-10 bg-primary-800 text-center text-secondary-100 items-center">
                 <div class="lg:grid lg:grid-cols-4 pb-5 border-b  border-secondary-400">
                     <div>  <!-- Start of Logo section for footer-->
-                        <div class="flex justify-center pt-7">
+                        <div class="flex justify-center pt-7 ">
                             <img class="w-64" src="img/logo.png" alt="footer log">
                         </div>
                         <h3 class="text-sm pt-4 font-light">A-Class Consults is a consultancy, research and personnel training company that integrates cutting-edge technology to deliver practical solutions to the challenges of organizations in the private and public sectors. Founded and registered in Nigeria in 2019  and with working experiences all over Nigeria.</h3>

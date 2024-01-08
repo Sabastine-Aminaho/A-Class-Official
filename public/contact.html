@@ -215,6 +215,31 @@
 
 
     <script src="index.js"></script>
+    <script>
+        function submitForm() {
+            // Get form data
+            const formData = new FormData(document.getElementById('myForm'));
 
+            // Fetch API to send form data to the server
+            fetch('/submit-form', {
+                method: 'POST',
+                body: formData,
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json(); // Assuming the server returns JSON
+            })
+            .then(data => {
+                console.log('Success:', data);
+                // Handle success (e.g., show a success message)
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                // Handle error (e.g., show an error message)
+            });
+        }
+    </script>
 </body>
 </html>
