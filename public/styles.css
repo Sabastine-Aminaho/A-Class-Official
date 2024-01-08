@@ -586,8 +586,8 @@ video {
   position: relative;
 }
 
-.-right-28{
-  right: -7rem;
+.-right-32{
+  right: -8rem;
 }
 
 .right-24{
@@ -598,12 +598,28 @@ video {
   top: 0.25rem;
 }
 
-.top-40{
-  top: 10rem;
-}
-
 .top-36{
   top: 9rem;
+}
+
+.-right-24{
+  right: -6rem;
+}
+
+.-right-20{
+  right: -5rem;
+}
+
+.-right-16{
+  right: -4rem;
+}
+
+.-right-12{
+  right: -3rem;
+}
+
+.right-28{
+  right: 7rem;
 }
 
 .z-10{
@@ -1314,6 +1330,10 @@ video {
 
   .md\:w-40{
     width: 10rem;
+  }
+
+  .md\:w-96{
+    width: 24rem;
   }
 
   .md\:justify-start{
