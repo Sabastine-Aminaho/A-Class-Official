@@ -602,6 +602,10 @@ video {
   top: 10rem;
 }
 
+.top-36{
+  top: 9rem;
+}
+
 .z-10{
   z-index: 10;
 }
@@ -1130,7 +1134,7 @@ video {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(180, 174, 235, 0.5);
+  background-color: rgba(32, 31, 37, 0.5);
   /* Adjust the opacity as needed */
 }
 
@@ -1337,6 +1341,16 @@ video {
   .md\:text-lg{
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .md\:text-primary-900{
+    --tw-text-opacity: 1;
+    color: rgb(30 58 138 / var(--tw-text-opacity));
+  }
+
+  .md\:text-secondary-500{
+    --tw-text-opacity: 1;
+    color: rgb(107 114 128 / var(--tw-text-opacity));
   }
 }
 
